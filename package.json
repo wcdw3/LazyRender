@@ -1,0 +1,39 @@
+{
+  "name": "@wcdw3/lazy-render",
+  "version": "1.0.0",
+  "description": "uses insersection-observer to render components when they appear on the screen.",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "rollup -c",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcdw3/LazyRender.git"
+  },
+  "keywords": ["react", "intersection-observer", "lazy-render", "lazy", "render"],
+  "author": "wcdw3 <wes5510@wcdw3.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wcdw3/LazyRender/issues"
+  },
+  "homepage": "https://github.com/wcdw3/LazyRender#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "react-intersection-observer": "^9.4.2",
+    "rollup": "^3.17.2",
+    "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^4.9.5"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
