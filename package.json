@@ -1,6 +1,6 @@
 {
   "name": "@wcdw3/lazy-render",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "uses react-intersection-observer to render components when they appear on the screen.",
   "scripts": {
     "clean": "rm -rf ./dist",
