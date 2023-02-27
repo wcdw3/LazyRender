@@ -4,7 +4,7 @@ Uses [react-intersection-observer](https://www.npmjs.com/package/react-intersect
 ## Install
 
 ```bash
-npm i -S @wcdw3/lazy-render
+npm i -S react-intersection-observer @wcdw3/lazy-render
 ```
 
 ## Usage
