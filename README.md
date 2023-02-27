@@ -8,16 +8,15 @@ npm i -S react-intersection-observer @wcdw3/lazy-render
 ```
 
 ## Usage
-[Demo!](https://codesandbox.io/s/wcdw3-lazyrender-example-80f7vr?file=/src/App.tsx)
+[![Edit @wcdw3/LazyRender Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/wcdw3-lazyrender-example-80f7vr?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
 import LazyRender from '@wcdw3/lazy-render';
-import SampleLoadableComponent from './path/to/SampleLoadableComponent'; // not exists in package. your component
 
 const Foo = () => {
   return (
     <LazyRender fallback={<div>Loading...</div>}>
-      <SampleLoadableComponent />
+      <div>ta-da 🎉</div>
     </LazyRender>
   );
 };
