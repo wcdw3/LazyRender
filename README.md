@@ -8,6 +8,7 @@ npm i -S react-intersection-observer @wcdw3/lazy-render
 ```
 
 ## Usage
+[Demo!](https://codesandbox.io/s/wcdw3-lazyrender-example-80f7vr?file=/src/App.tsx)
 
 ```jsx
 import LazyRender from '@wcdw3/lazy-render';
