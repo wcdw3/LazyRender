@@ -14,7 +14,7 @@ npm i -S react-intersection-observer @wcdw3/lazy-render
 import LazyRender from '@wcdw3/lazy-render';
 import SampleLoadableComponent from './path/to/SampleLoadableComponent'; // not exists in package. your component
 
-const Demo = () => {
+const Foo = () => {
   return (
     <LazyRender fallback={<div>Loading...</div>}>
       <SampleLoadableComponent />
