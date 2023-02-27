@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/wcdw3/LazyRender.git"
   },
-  "keywords": ["react", "intersection-observer", "lazy-render", "lazy", "render"],
+  "keywords": [
+    "react",
+    "intersection-observer",
+    "lazy-render",
+    "lazy",
+    "render"
+  ],
   "author": "wes5510 <wes5510@icloud.com>",
   "license": "MIT",
   "bugs": {
@@ -24,10 +30,11 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
     "react": "^18.2.0",
-    "react-intersection-observer": "^9.4.2",
-    "rollup": "^3.17.2",
+    "react-intersection-observer": "^9.4.3",
+    "rollup": "^3.17.3",
     "rollup-plugin-dts": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.5.0",
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
